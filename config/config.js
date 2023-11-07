@@ -1,14 +1,14 @@
 
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Hansel",
 	links: [
 		{
-			title: "About",
-			link: "#about",
+			title: "Education",
+			link: "#skills",
 		},
 		{
 			title: "Projects",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hi there! This is Hansel.",
+	description: "A CS Grad student who spends time making jokes about Music theory and cooks food from scratch.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,32 +36,35 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/160ejbVn7ZXdPixllZNSNHDC8aU_CfOj6/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
 }
 
 export const about = {
-	title: "Who I am",
+	title: "About Me",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I am student at George Mason University studying MS in Computer Science. I completed my Bachelors in Computer Engineering from the University of Mumbai in 2020. ",
+		"After completing my undergrad, I worked for two years at Larsed and Toubro Infotech (Now LTIMindtree) in Mumbai.\
+		At George Mason University, I took up a myriad of different courses right from Data Mining to Reinforcement Learning; from Databases to Computer Graphics. Having said this, I used the time while pursuing my masters to build my \
+		soft skills, perfect my presentation skills and master interpersonal communication which, I believe is equally important as honing my technical skills. ",
+		"When I am away from the screen I tend to indulge in many different activities. If it's early morning, I like to swim. Twice a week I am a part of two different choirs (With different music genres) and when time permits, I dabble in music theory and wriing choral music.", " \n\
+		Also if I havent already mentioned, I love to cook!",
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "Education",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "George Mason University",
+			description: "MS Computer Science, 2022 - 2024",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "University of Mumbai",
+			description: ["BE Computer Engineerng, 2016 - 2020"],
 			icons: null,
 		}
 	],
@@ -71,74 +74,65 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "2048 Solver with Reinforcement Learning",
+			description: "(In progress) Using Reinforcement learning and classical learning appraches such as Monte Carlo Tree Search to play the 2048 game.",
 			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
+				// {
+				// 	icon: faAppStore,
+				// 	link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+				// }
+				// {
+				// 	icon: faGithub,
+				// 	link: "https://github.com/hashirshoaeb/star_book",
+				// }
+				,
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Classroom Lecture Attention Analysis",
+			description: "A framework build to find ways to quantify attention, using computer vision which could gain insights on teaching-learning behaviour in a classroom.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
+					icon: faNewspaper,
+					link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3685655",
+				}
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Task Automator using Python                       ",
+			description: "A tool used to automate tasks by recording keystrokes and mouse-clicks. The tool also \
+			saves the tasks for future use and can record unsolicited activities.",
 			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
+
 			]
 		},
 	],
 }
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	title: "Contact Me",
+	description: "Looking forward to hearing from you. Contact me at hanspres1999@gmail.com",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:hanspres1999@gmail.com",
 			isPrimary: true,
 		},
-		{
-			title: "Schedule Meeting",
-			link: "https://topmate.io/hashirshoaeb",
-			isPrimary: false,
-		},
+
 	]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Hansel Saldanha | Software Engineer | Python developer",
+	description: "I am student at George Mason University studying MS in Computer Science. I completed my Bachelors in Computer Engineering from the University of Mumbai in 2020",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
+	title: "@hanspres1999",
 	description: "Computer Engineer | Flutter | Reactjs Developer",
 	cards: [
 		{
